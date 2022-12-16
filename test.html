@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgba(217, 217, 217, 1);
+      }
+      .ball-big {
+        width: 90vw;
+        height: 90vw;
+        border-radius: 45vw;
+        background-color: rgba(35, 131, 85, 1);
+        position: absolute;
+        margin-top: -30vw;
+        margin-left: -30vw;
+      }
+      .rectangle {
+        border: 27vw solid transparent;
+        border-right: 21vw solid rgba(206, 54, 7, 1);
+        border-bottom: 0vw solid rgba(206, 54, 7, 1);
+        margin-left: auto;
+        margin-right: 0;
+      }
+      .line {
+        width: 12vw;
+        height: 80vw;
+        background-color: rgba(28, 63, 155, 1);
+        -webkit-transform: translateY(-24vw) translateX(44vw) rotate(138deg);
+        position: absolute;
+      }
+      .ball-small {
+        width: 25vw;
+        height: 25vw;
+        border-radius: 12.5vw;
+        background-color: rgba(12, 165, 101, 1);
+        margin-left: 58vw;
+        margin-top: 8vw;
+        position: absolute;
+        z-index: 10;
+      }
+      .button {
+        height: 20vw;
+        width: 72vw;
+        background-color: rgba(146, 15, 191, 1);
+        border-radius: 7vw;
+        position: absolute;
+        z-index: 10;
+        margin-left: 14vw;
+        margin-top: 41vw;
+      }
+    </style>
+    <title>HTML и CSS</title>
+  </head>
+  <body>
+    <div class="ball-big"></div>
+    <div class="rectangle"></div>
+    <div class="line"></div>
+    <div class="ball-small"></div>
+    <div class="button"></div>
+  </body>
+</html>
